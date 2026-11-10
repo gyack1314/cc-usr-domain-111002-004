@@ -1,0 +1,8 @@
+{
+  "phases": [
+    "base"
+  ],
+  "operator": "同origin新页/?operator=1显示人工确认按钮；自动采集程序不点击此按钮",
+  "authorization": "只作用于本地合成来源，由另一个页面显式人工确认",
+  "audit": "open-restricted动作记录可证明暂停窗口是否读取资料"
+}
