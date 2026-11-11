@@ -1,0 +1,452 @@
+{
+ "2db81039e8fb1960f5c4a0200a196cd7": {
+  "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7",
+  "plan_id": "P1",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-17",
+   "DOC-18",
+   "DOC-19",
+   "DOC-20",
+   "DOC-21"
+  ],
+  "created_at": 1794412969.477,
+  "expires_at": 1794414769.477,
+  "status": "consumed",
+  "result": {
+   "outcome": "paused",
+   "plan_id": "P1",
+   "handoff": {
+    "handoff_id": "9020e7ef7acef98887add7a71f92998e",
+    "plan_id": "P1",
+    "workspace": "A",
+    "category": "sensitive",
+    "user": "demo-user",
+    "stopped_url": "http://127.0.0.1:35891/",
+    "reason": "读取 DOC-20 前遇到人工确认页",
+    "completed": [
+     "DOC-17",
+     "DOC-18",
+     "DOC-19"
+    ],
+    "remaining": [
+     "DOC-20",
+     "DOC-21"
+    ],
+    "created_at": 1794412970.496,
+    "expires_at": 1794414770.496,
+    "status": "pending",
+    "result": null
+   },
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": true,
+     "observed": "A",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    }
+   ]
+  }
+ },
+ "9020e7ef7acef98887add7a71f92998e": {
+  "handoff_id": "9020e7ef7acef98887add7a71f92998e",
+  "plan_id": "P1",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "读取 DOC-20 前遇到人工确认页",
+  "completed": [
+   "DOC-17",
+   "DOC-18",
+   "DOC-19"
+  ],
+  "remaining": [
+   "DOC-20",
+   "DOC-21"
+  ],
+  "created_at": 1794412970.496,
+  "expires_at": 1794414770.496,
+  "status": "consumed",
+  "result": {
+   "outcome": "completed",
+   "plan_id": "P1",
+   "read": [
+    "DOC-17",
+    "DOC-18",
+    "DOC-19",
+    "DOC-20",
+    "DOC-21"
+   ],
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": true,
+     "observed": "A",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    },
+    {
+     "name": "version:DOC-17",
+     "ok": true,
+     "observed": "1",
+     "expected": "1"
+    },
+    {
+     "name": "version:DOC-18",
+     "ok": true,
+     "observed": "1",
+     "expected": "1"
+    },
+    {
+     "name": "version:DOC-19",
+     "ok": true,
+     "observed": "1",
+     "expected": "1"
+    }
+   ]
+  }
+ },
+ "0d1a1cc0e7f67351fb1e2828fb9ab0d1": {
+  "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1",
+  "plan_id": "P2",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-22",
+   "DOC-23"
+  ],
+  "created_at": 1794412971.574,
+  "expires_at": 1794414771.574,
+  "status": "consumed",
+  "result": {
+   "outcome": "needs_reconfirm",
+   "plan_id": "P2",
+   "failed_checks": [
+    {
+     "name": "workspace",
+     "ok": false,
+     "observed": "B",
+     "expected": "A"
+    }
+   ],
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": false,
+     "observed": "B",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    }
+   ]
+  }
+ },
+ "ba3f14e9cfcae984f0a1ca3545612471": {
+  "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471",
+  "plan_id": "P3",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-24",
+   "DOC-25"
+  ],
+  "created_at": 1794412972.372,
+  "expires_at": 1794414772.372,
+  "status": "consumed",
+  "result": {
+   "outcome": "completed",
+   "plan_id": "P3",
+   "read": [
+    "DOC-24",
+    "DOC-25"
+   ],
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": true,
+     "observed": "A",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    }
+   ]
+  }
+ },
+ "54fe91b00c1a030ecec20daed9059b6d": {
+  "handoff_id": "54fe91b00c1a030ecec20daed9059b6d",
+  "plan_id": "P4",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-26",
+   "DOC-27"
+  ],
+  "created_at": 1794412973.425,
+  "expires_at": 1794414773.425,
+  "status": "consumed",
+  "result": {
+   "outcome": "completed",
+   "plan_id": "P4",
+   "read": [
+    "DOC-26",
+    "DOC-27"
+   ],
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": true,
+     "observed": "A",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    }
+   ]
+  }
+ },
+ "13f88432b71723b7dd43c9715b09ee9b": {
+  "handoff_id": "13f88432b71723b7dd43c9715b09ee9b",
+  "plan_id": "P5",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "读取 DOC-29 前遇到人工确认页",
+  "completed": [
+   "DOC-28"
+  ],
+  "remaining": [
+   "DOC-29"
+  ],
+  "created_at": 1794412974.293,
+  "expires_at": 1794414774.293,
+  "status": "consumed",
+  "result": {
+   "outcome": "needs_reconfirm",
+   "plan_id": "P5",
+   "failed_checks": [
+    {
+     "name": "version:DOC-28",
+     "ok": false,
+     "observed": "2",
+     "expected": "1"
+    }
+   ],
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": true,
+     "observed": "A",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    },
+    {
+     "name": "version:DOC-28",
+     "ok": false,
+     "observed": "2",
+     "expected": "1"
+    }
+   ]
+  }
+ },
+ "15591c7f8bc0e8b8effdb601d0c9094f": {
+  "handoff_id": "15591c7f8bc0e8b8effdb601d0c9094f",
+  "plan_id": "P6",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-30"
+  ],
+  "created_at": 1794412974.979,
+  "expires_at": 1794412975.979,
+  "status": "expired",
+  "result": null
+ },
+ "6003769b445884e104c968603cead54b": {
+  "handoff_id": "6003769b445884e104c968603cead54b",
+  "plan_id": "P6",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-30"
+  ],
+  "created_at": 1794412976.33,
+  "expires_at": 1794414776.33,
+  "status": "consumed",
+  "result": {
+   "outcome": "completed",
+   "plan_id": "P6",
+   "read": [
+    "DOC-30"
+   ],
+   "checks": [
+    {
+     "name": "identity",
+     "ok": true,
+     "observed": "demo-user",
+     "expected": "demo-user"
+    },
+    {
+     "name": "workspace",
+     "ok": true,
+     "observed": "A",
+     "expected": "A"
+    },
+    {
+     "name": "category",
+     "ok": true,
+     "observed": "sensitive",
+     "expected": "sensitive"
+    },
+    {
+     "name": "authorization",
+     "ok": true,
+     "observed": "true",
+     "expected": "true"
+    }
+   ]
+  }
+ },
+ "83a80b3b83fe8d72b91f89ddab9a64b1": {
+  "handoff_id": "83a80b3b83fe8d72b91f89ddab9a64b1",
+  "plan_id": "P7",
+  "workspace": "A",
+  "category": "sensitive",
+  "user": "demo-user",
+  "stopped_url": "http://127.0.0.1:35891/",
+  "reason": "打开资料列表时遇到人工确认页",
+  "completed": [],
+  "remaining": [
+   "DOC-31"
+  ],
+  "created_at": 1794412976.886,
+  "expires_at": 1794414776.886,
+  "status": "cancelled",
+  "result": null
+ }
+}

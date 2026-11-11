@@ -1,4 +1,21 @@
 {
   "user": "demo-user",
-  "private_note": "合成私密字段不应进入交接单"
+  "private_note": "合成私密字段不应进入交接单",
+  "documents": [
+    {"id": "DOC-17", "title": "审计底稿 DOC-17", "category": "sensitive", "body": "DOC-17 合成正文：甲公司一季度核对底稿摘录。", "private_note": "DOC-17合成私密附注-a17"},
+    {"id": "DOC-18", "title": "审计底稿 DOC-18", "category": "sensitive", "body": "DOC-18 合成正文：甲公司一季度凭证抽查记录。", "private_note": "DOC-18合成私密附注-b18"},
+    {"id": "DOC-19", "title": "审计底稿 DOC-19", "category": "sensitive", "body": "DOC-19 合成正文：甲公司二季度往来账核对表。", "private_note": "DOC-19合成私密附注-c19"},
+    {"id": "DOC-20", "title": "审计底稿 DOC-20", "category": "sensitive", "body": "DOC-20 合成正文：甲公司二季度盘点差异说明。", "private_note": "DOC-20合成私密附注-d20"},
+    {"id": "DOC-21", "title": "审计底稿 DOC-21", "category": "sensitive", "body": "DOC-21 合成正文：甲公司三季度费用归集表。", "private_note": "DOC-21合成私密附注-e21"},
+    {"id": "DOC-22", "title": "审计底稿 DOC-22", "category": "sensitive", "body": "DOC-22 合成正文：甲公司三季度合同台账摘录。", "private_note": "DOC-22合成私密附注-f22"},
+    {"id": "DOC-23", "title": "审计底稿 DOC-23", "category": "sensitive", "body": "DOC-23 合成正文：甲公司四季度预算执行表。", "private_note": "DOC-23合成私密附注-g23"},
+    {"id": "DOC-24", "title": "审计底稿 DOC-24", "category": "sensitive", "body": "DOC-24 合成正文：甲公司四季度资金流水核对。", "private_note": "DOC-24合成私密附注-h24"},
+    {"id": "DOC-25", "title": "审计底稿 DOC-25", "category": "sensitive", "body": "DOC-25 合成正文：甲公司年度资产清册摘录。", "private_note": "DOC-25合成私密附注-i25"},
+    {"id": "DOC-26", "title": "审计底稿 DOC-26", "category": "sensitive", "body": "DOC-26 合成正文：甲公司年度负债确认记录。", "private_note": "DOC-26合成私密附注-j26"},
+    {"id": "DOC-27", "title": "审计底稿 DOC-27", "category": "sensitive", "body": "DOC-27 合成正文：甲公司年度收入截止性测试。", "private_note": "DOC-27合成私密附注-k27"},
+    {"id": "DOC-28", "title": "审计底稿 DOC-28", "category": "sensitive", "body": "DOC-28 合成正文：甲公司年度薪酬计提表。", "private_note": "DOC-28合成私密附注-l28"},
+    {"id": "DOC-29", "title": "审计底稿 DOC-29", "category": "sensitive", "body": "DOC-29 合成正文：甲公司年度税费核对记录。", "private_note": "DOC-29合成私密附注-m29"},
+    {"id": "DOC-30", "title": "审计底稿 DOC-30", "category": "sensitive", "body": "DOC-30 合成正文：甲公司年度关联交易清单。", "private_note": "DOC-30合成私密附注-n30"},
+    {"id": "DOC-31", "title": "审计底稿 DOC-31", "category": "sensitive", "body": "DOC-31 合成正文：甲公司年度审计调整分录。", "private_note": "DOC-31合成私密附注-o31"}
+  ]
 }

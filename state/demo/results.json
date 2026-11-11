@@ -1,0 +1,126 @@
+{
+ "P1@A": [
+  {
+   "doc_id": "DOC-17",
+   "version": "1",
+   "sha256": "08bd67f3dbb583bc",
+   "chars": 25,
+   "revision": 1,
+   "fetched_at": 1794412970.174
+  },
+  {
+   "doc_id": "DOC-18",
+   "version": "1",
+   "sha256": "090ba6e73d3076ab",
+   "chars": 25,
+   "revision": 1,
+   "fetched_at": 1794412970.286
+  },
+  {
+   "doc_id": "DOC-19",
+   "version": "1",
+   "sha256": "e2d367fdc646cbde",
+   "chars": 25,
+   "revision": 1,
+   "fetched_at": 1794412970.413
+  },
+  {
+   "doc_id": "DOC-20",
+   "version": "1",
+   "sha256": "90d61d1814bc5938",
+   "chars": 25,
+   "revision": 1,
+   "fetched_at": 1794412971.291
+  },
+  {
+   "doc_id": "DOC-21",
+   "version": "1",
+   "sha256": "fe3c2f87bc69d577",
+   "chars": 24,
+   "revision": 1,
+   "fetched_at": 1794412971.404
+  }
+ ],
+ "P2@A": [
+  {
+   "doc_id": "DOC-22",
+   "version": "1",
+   "sha256": "a97da2ec9cc58a26",
+   "chars": 25,
+   "revision": 2,
+   "fetched_at": 1794412972.124
+  },
+  {
+   "doc_id": "DOC-23",
+   "version": "1",
+   "sha256": "e75e715f496d75f7",
+   "chars": 24,
+   "revision": 2,
+   "fetched_at": 1794412972.235
+  }
+ ],
+ "P3@A": [
+  {
+   "doc_id": "DOC-24",
+   "version": "1",
+   "sha256": "566a17cd3f2d2414",
+   "chars": 25,
+   "revision": 1,
+   "fetched_at": 1794412973.134
+  },
+  {
+   "doc_id": "DOC-25",
+   "version": "1",
+   "sha256": "aad472220ac1efaf",
+   "chars": 24,
+   "revision": 1,
+   "fetched_at": 1794412973.255
+  }
+ ],
+ "P4@A": [
+  {
+   "doc_id": "DOC-26",
+   "version": "1",
+   "sha256": "22d0222d79aa0496",
+   "chars": 24,
+   "revision": 1,
+   "fetched_at": 1794412973.752
+  },
+  {
+   "doc_id": "DOC-27",
+   "version": "1",
+   "sha256": "631679ba678e0fa8",
+   "chars": 25,
+   "revision": 1,
+   "fetched_at": 1794412973.867
+  }
+ ],
+ "P5@A": [
+  {
+   "doc_id": "DOC-28",
+   "version": "1",
+   "sha256": "bcb474a3f0bbd6fa",
+   "chars": 23,
+   "revision": 1,
+   "fetched_at": 1794412974.192
+  },
+  {
+   "doc_id": "DOC-29",
+   "version": "2",
+   "sha256": "9a6bd71f6987e069",
+   "chars": 24,
+   "revision": 2,
+   "fetched_at": 1794412974.83
+  }
+ ],
+ "P6@A": [
+  {
+   "doc_id": "DOC-30",
+   "version": "2",
+   "sha256": "c9108d38abb81d6e",
+   "chars": 24,
+   "revision": 1,
+   "fetched_at": 1794412976.696
+  }
+ ]
+}
