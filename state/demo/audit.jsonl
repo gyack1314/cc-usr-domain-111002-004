@@ -1,0 +1,104 @@
+{"ts": 1794412969.005, "kind": "collector-launched", "base_url": "http://127.0.0.1:35891"}
+{"ts": 1794412969.344, "kind": "plan-created", "plan_id": "P1", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-17,DOC-18,DOC-19,DOC-20,DOC-21"}
+{"ts": 1794412969.352, "kind": "plan-started", "plan_id": "P1", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412969.486, "kind": "handoff-created", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "plan_id": "P1", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-17,DOC-18,DOC-19,DOC-20,DOC-21"}
+{"ts": 1794412969.906, "kind": "resume-requested", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "plan_id": "P1"}
+{"ts": 1794412969.954, "kind": "verify", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "plan_id": "P1", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412969.956, "kind": "verify", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "plan_id": "P1", "check": "workspace", "ok": true, "observed": "A"}
+{"ts": 1794412969.963, "kind": "verify", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "plan_id": "P1", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412969.971, "kind": "verify", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "plan_id": "P1", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412970.184, "kind": "doc-read", "plan_id": "P1", "doc_id": "DOC-17", "version": "1", "sha256": "08bd67f3dbb583bc"}
+{"ts": 1794412970.296, "kind": "doc-read", "plan_id": "P1", "doc_id": "DOC-18", "version": "1", "sha256": "090ba6e73d3076ab"}
+{"ts": 1794412970.431, "kind": "doc-read", "plan_id": "P1", "doc_id": "DOC-19", "version": "1", "sha256": "e2d367fdc646cbde"}
+{"ts": 1794412970.509, "kind": "handoff-created", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "stopped_url": "http://127.0.0.1:35891/", "completed": "DOC-17,DOC-18,DOC-19", "remaining": "DOC-20,DOC-21"}
+{"ts": 1794412970.521, "kind": "resume-finished", "handoff_id": "2db81039e8fb1960f5c4a0200a196cd7", "outcome": "paused"}
+{"ts": 1794412970.891, "kind": "resume-requested", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1"}
+{"ts": 1794412971.063, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412971.065, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "workspace", "ok": true, "observed": "A"}
+{"ts": 1794412971.078, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412971.086, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412971.096, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "version:DOC-17", "ok": true, "observed": "1"}
+{"ts": 1794412971.106, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "version:DOC-18", "ok": true, "observed": "1"}
+{"ts": 1794412971.116, "kind": "verify", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "plan_id": "P1", "check": "version:DOC-19", "ok": true, "observed": "1"}
+{"ts": 1794412971.304, "kind": "doc-read", "plan_id": "P1", "doc_id": "DOC-20", "version": "1", "sha256": "90d61d1814bc5938"}
+{"ts": 1794412971.418, "kind": "doc-read", "plan_id": "P1", "doc_id": "DOC-21", "version": "1", "sha256": "fe3c2f87bc69d577"}
+{"ts": 1794412971.429, "kind": "plan-completed", "plan_id": "P1", "read": "DOC-17,DOC-18,DOC-19,DOC-20,DOC-21"}
+{"ts": 1794412971.442, "kind": "resume-finished", "handoff_id": "9020e7ef7acef98887add7a71f92998e", "outcome": "completed"}
+{"ts": 1794412971.461, "kind": "plan-created", "plan_id": "P2", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-22,DOC-23"}
+{"ts": 1794412971.468, "kind": "plan-started", "plan_id": "P2", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412971.586, "kind": "handoff-created", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "plan_id": "P2", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-22,DOC-23"}
+{"ts": 1794412971.64, "kind": "resume-requested", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "plan_id": "P2"}
+{"ts": 1794412971.704, "kind": "verify", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "plan_id": "P2", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412971.706, "kind": "verify", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "plan_id": "P2", "check": "workspace", "ok": false, "observed": "B"}
+{"ts": 1794412971.715, "kind": "verify", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "plan_id": "P2", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412971.725, "kind": "verify", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "plan_id": "P2", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412971.745, "kind": "plan-needs-reconfirm", "plan_id": "P2", "reason": "workspace"}
+{"ts": 1794412971.757, "kind": "resume-finished", "handoff_id": "0d1a1cc0e7f67351fb1e2828fb9ab0d1", "outcome": "needs_reconfirm"}
+{"ts": 1794412971.826, "kind": "plan-reconfirmed", "plan_id": "P2", "revision": 2}
+{"ts": 1794412971.834, "kind": "plan-started", "plan_id": "P2", "workspace": "A", "category": "sensitive", "revision": 2}
+{"ts": 1794412972.137, "kind": "doc-read", "plan_id": "P2", "doc_id": "DOC-22", "version": "1", "sha256": "a97da2ec9cc58a26"}
+{"ts": 1794412972.248, "kind": "doc-read", "plan_id": "P2", "doc_id": "DOC-23", "version": "1", "sha256": "e75e715f496d75f7"}
+{"ts": 1794412972.258, "kind": "plan-completed", "plan_id": "P2", "read": "DOC-22,DOC-23"}
+{"ts": 1794412972.272, "kind": "plan-created", "plan_id": "P3", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-24,DOC-25"}
+{"ts": 1794412972.278, "kind": "plan-started", "plan_id": "P3", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412972.386, "kind": "handoff-created", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-24,DOC-25"}
+{"ts": 1794412972.754, "kind": "browser-attached", "cdp": "http://127.0.0.1:58307", "page_url": "http://127.0.0.1:35891/"}
+{"ts": 1794412972.766, "kind": "resume-requested", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3"}
+{"ts": 1794412972.833, "kind": "context-reapplied", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3"}
+{"ts": 1794412972.887, "kind": "verify", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412972.889, "kind": "verify", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3", "check": "workspace", "ok": true, "observed": "A"}
+{"ts": 1794412972.898, "kind": "verify", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412972.909, "kind": "verify", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "plan_id": "P3", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412973.161, "kind": "doc-read", "plan_id": "P3", "doc_id": "DOC-24", "version": "1", "sha256": "566a17cd3f2d2414"}
+{"ts": 1794412973.269, "kind": "doc-read", "plan_id": "P3", "doc_id": "DOC-25", "version": "1", "sha256": "aad472220ac1efaf"}
+{"ts": 1794412973.279, "kind": "plan-completed", "plan_id": "P3", "read": "DOC-24,DOC-25"}
+{"ts": 1794412973.288, "kind": "resume-finished", "handoff_id": "ba3f14e9cfcae984f0a1ca3545612471", "outcome": "completed"}
+{"ts": 1794412973.311, "kind": "plan-created", "plan_id": "P4", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-26,DOC-27"}
+{"ts": 1794412973.321, "kind": "plan-started", "plan_id": "P4", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412973.439, "kind": "handoff-created", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "plan_id": "P4", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-26,DOC-27"}
+{"ts": 1794412973.5, "kind": "resume-requested", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "plan_id": "P4"}
+{"ts": 1794412973.553, "kind": "verify", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "plan_id": "P4", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412973.554, "kind": "verify", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "plan_id": "P4", "check": "workspace", "ok": true, "observed": "A"}
+{"ts": 1794412973.565, "kind": "verify", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "plan_id": "P4", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412973.577, "kind": "verify", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "plan_id": "P4", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412973.764, "kind": "doc-read", "plan_id": "P4", "doc_id": "DOC-26", "version": "1", "sha256": "22d0222d79aa0496"}
+{"ts": 1794412973.881, "kind": "doc-read", "plan_id": "P4", "doc_id": "DOC-27", "version": "1", "sha256": "631679ba678e0fa8"}
+{"ts": 1794412973.892, "kind": "plan-completed", "plan_id": "P4", "read": "DOC-26,DOC-27"}
+{"ts": 1794412973.901, "kind": "resume-finished", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d", "outcome": "completed"}
+{"ts": 1794412973.91, "kind": "resume-duplicate-served", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d"}
+{"ts": 1794412973.915, "kind": "resume-duplicate-served", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d"}
+{"ts": 1794412973.925, "kind": "resume-duplicate-served", "handoff_id": "54fe91b00c1a030ecec20daed9059b6d"}
+{"ts": 1794412973.949, "kind": "plan-created", "plan_id": "P5", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-28,DOC-29"}
+{"ts": 1794412973.957, "kind": "plan-started", "plan_id": "P5", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412974.208, "kind": "doc-read", "plan_id": "P5", "doc_id": "DOC-28", "version": "1", "sha256": "bcb474a3f0bbd6fa"}
+{"ts": 1794412974.309, "kind": "handoff-created", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5", "stopped_url": "http://127.0.0.1:35891/", "completed": "DOC-28", "remaining": "DOC-29"}
+{"ts": 1794412974.359, "kind": "resume-requested", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5"}
+{"ts": 1794412974.499, "kind": "verify", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412974.501, "kind": "verify", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5", "check": "workspace", "ok": true, "observed": "A"}
+{"ts": 1794412974.51, "kind": "verify", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412974.52, "kind": "verify", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412974.529, "kind": "verify", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "plan_id": "P5", "check": "version:DOC-28", "ok": false, "observed": "2"}
+{"ts": 1794412974.542, "kind": "plan-needs-reconfirm", "plan_id": "P5", "reason": "version:DOC-28"}
+{"ts": 1794412974.552, "kind": "resume-finished", "handoff_id": "13f88432b71723b7dd43c9715b09ee9b", "outcome": "needs_reconfirm"}
+{"ts": 1794412974.564, "kind": "plan-reconfirmed", "plan_id": "P5", "revision": 2}
+{"ts": 1794412974.569, "kind": "plan-started", "plan_id": "P5", "workspace": "A", "category": "sensitive", "revision": 2}
+{"ts": 1794412974.843, "kind": "doc-read", "plan_id": "P5", "doc_id": "DOC-29", "version": "2", "sha256": "9a6bd71f6987e069"}
+{"ts": 1794412974.854, "kind": "plan-completed", "plan_id": "P5", "read": "DOC-28,DOC-29"}
+{"ts": 1794412974.865, "kind": "plan-created", "plan_id": "P6", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-30"}
+{"ts": 1794412974.871, "kind": "plan-started", "plan_id": "P6", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412974.993, "kind": "handoff-created", "handoff_id": "15591c7f8bc0e8b8effdb601d0c9094f", "plan_id": "P6", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-30"}
+{"ts": 1794412976.21, "kind": "handoff-expired", "handoff_id": "15591c7f8bc0e8b8effdb601d0c9094f"}
+{"ts": 1794412976.223, "kind": "plan-started", "plan_id": "P6", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412976.342, "kind": "handoff-created", "handoff_id": "6003769b445884e104c968603cead54b", "plan_id": "P6", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-30"}
+{"ts": 1794412976.394, "kind": "resume-requested", "handoff_id": "6003769b445884e104c968603cead54b", "plan_id": "P6"}
+{"ts": 1794412976.457, "kind": "verify", "handoff_id": "6003769b445884e104c968603cead54b", "plan_id": "P6", "check": "identity", "ok": true, "observed": "demo-user"}
+{"ts": 1794412976.459, "kind": "verify", "handoff_id": "6003769b445884e104c968603cead54b", "plan_id": "P6", "check": "workspace", "ok": true, "observed": "A"}
+{"ts": 1794412976.467, "kind": "verify", "handoff_id": "6003769b445884e104c968603cead54b", "plan_id": "P6", "check": "category", "ok": true, "observed": "sensitive"}
+{"ts": 1794412976.48, "kind": "verify", "handoff_id": "6003769b445884e104c968603cead54b", "plan_id": "P6", "check": "authorization", "ok": true, "observed": "true"}
+{"ts": 1794412976.712, "kind": "doc-read", "plan_id": "P6", "doc_id": "DOC-30", "version": "2", "sha256": "c9108d38abb81d6e"}
+{"ts": 1794412976.721, "kind": "plan-completed", "plan_id": "P6", "read": "DOC-30"}
+{"ts": 1794412976.735, "kind": "resume-finished", "handoff_id": "6003769b445884e104c968603cead54b", "outcome": "completed"}
+{"ts": 1794412976.746, "kind": "plan-created", "plan_id": "P7", "workspace": "A", "category": "sensitive", "user": "demo-user", "scope": "DOC-31"}
+{"ts": 1794412976.751, "kind": "plan-started", "plan_id": "P7", "workspace": "A", "category": "sensitive", "revision": 1}
+{"ts": 1794412976.901, "kind": "handoff-created", "handoff_id": "83a80b3b83fe8d72b91f89ddab9a64b1", "plan_id": "P7", "stopped_url": "http://127.0.0.1:35891/", "completed": "", "remaining": "DOC-31"}
+{"ts": 1794412976.923, "kind": "plan-cancelled", "plan_id": "P7", "tickets": 1}
